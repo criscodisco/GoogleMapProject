@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/MyTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignParentBottom="true" />
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:apiKey="05FEEFxCsPpc2C9SqxNpdg15aQHbNjMx2KUocyg"
+        android:enabled="true"
+        android:clickable="true"
+        android:layout_above="@+id/MyTextView" />
+ 
+    <LinearLayout android:id="@+id/LinearLayout01" 
+android:layout_height="wrap_content" 
+android:orientation="horizontal" 
+android:layout_width="fill_parent" 
+android:gravity="center">
+    
+    
+    
+    <Button
+  		android:id="@+id/button1"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:textColor="#fff"
+  		android:text="Zoom 1"
+  		
+  		android:textSize="18dp"
+  		
+  	/>
+    
+     <Button
+  		android:id="@+id/button2"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:textColor="#fff"
+  		android:text="Zoom 2"
+  		
+  		android:textSize="18dp"
+  		
+  	/>
+     
+     
+     <Button
+  		android:id="@+id/button3"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:textColor="#fff"
+  		android:text="Zoom 3"
+  		
+  		android:textSize="18dp"
+  		
+  	/>
+     
+     
+     <Button
+  		android:id="@+id/button4"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:textColor="#fff"
+  		android:text="Draw"
+  		
+  		android:textSize="18dp"
+  		
+  	/>
+     
+    </LinearLayout> 
+     
+     
+     <LinearLayout android:id="@+id/zoom" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true" 
+        android:layout_centerHorizontal="true" 
+        /> 
+    
+    
+</RelativeLayout>
+
